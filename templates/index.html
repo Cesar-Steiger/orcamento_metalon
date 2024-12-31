@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento Metalon</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Orçamento de Metalon!</h1>
+    <form action="/" method="POST">
+        <label for="tipo">Tipo de Metalon:</label>
+        <input type="text" id="tipo" name="tipo" required><br><br>
+
+        <label for="comprimento">Comprimento (metros):</label>
+        <input type="number" id="comprimento" name="comprimento" step="0.01" required><br><br>
+
+        <label for="largura">Largura (centímetros):</label>
+        <input type="number" id="largura" name="largura" step="0.01" required><br><br>
+
+        <label for="preco_por_metro">Preço por Metro (R$):</label>
+        <input type="number" id="preco_por_metro" name="preco_por_metro" step="0.01" required><br><br>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required><br><br>
+
+        <button type="submit">Calcular Orçamento</button>
+    </form>
+</body>
+</html>
